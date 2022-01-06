@@ -1,0 +1,65 @@
+body,
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+    width: 100px;
+    border-width: 3px;
+    border-color: #F05F44;
+    margin-top:1000px ;
+}
+.my-auto{
+        color: black;
+        text-align: center;
+        
+}
+
+header.startup{
+    background-position: center;
+    background-image: black;
+    
+    background-size: cover;
+    height: 100%;
+}
+
+header.startup hr{
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+.lap{
+    color: black;  
+}
+
+header.startup h1{
+    font-size: 2rem;
+}
+
+button{
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    transition: all 1s;
+    
+    
+}
+
+.btn-xl{
+    padding: 1rem 2rem;
+}
+.btn-primary{
+    background-color: #F05F44;
+    border-color: #F05F44;
+}
+button :hover{
+    transform: scale(1.1);
+    
+}
